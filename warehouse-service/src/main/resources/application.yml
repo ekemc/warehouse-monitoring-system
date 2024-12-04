@@ -1,0 +1,11 @@
+props:
+  endpoints:
+    - host: "localhost"
+      port: 3344
+      type: TEMPERATURE
+      
+    - host: "localhost"
+      port: 3355
+      type: HUMIDITY
+  warehouse-name: w1
+  central-server-endpoint: http://localhost:8081/central-service/measurement    

@@ -1,0 +1,2 @@
+insert into measurement_threshold(active, measurement_type, threshold_type, val) values(true, 'TEMPERATURE', 'EXCEEDS', 35);
+insert into measurement_threshold(active, measurement_type, threshold_type, val) values(true, 'HUMIDITY', 'EXCEEDS', 50);
